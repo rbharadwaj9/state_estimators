@@ -1,0 +1,26 @@
+[project]
+name = "state-estimatiors"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Rajiv Bharadwaj",email = "44103483+rbharadwaj9@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "jupyter",
+]
+
+[tool.poetry]
+packages = [{include = "state_estimatiors", from = "src"}]
+
+[tool.basedpyright]
+typeCheckingMode = "recommended"
+pythonVersion = "3.10"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
