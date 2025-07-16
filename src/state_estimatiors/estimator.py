@@ -3,6 +3,7 @@ Base State Estimator Class
 
 Each estimator has a measurement model and dynamics model
 """
+import numpy as np
 from numpy.typing import NDArray
 
 from state_estimatiors.world.model.dynamics_model import DynamicsModel

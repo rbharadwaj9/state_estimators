@@ -6,7 +6,7 @@ authors = [
     {name = "Rajiv Bharadwaj",email = "44103483+rbharadwaj9@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = "==3.10"
+requires-python = ">=3.10,<3.11"
 dependencies = [
     "numpy",
     "matplotlib",
